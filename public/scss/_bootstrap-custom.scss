@@ -1,0 +1,50 @@
+// custom variables and override bootstrap variables
+
+//== Colors
+$black:											#000;
+$white:											#fff;
+$clr-1:											#121f36;
+$clr-2:											#cccccc;
+$clr-3:											#555555;
+$clr-4:											#d0d1d3;
+$clr-5:											#f7f7f7;
+$clr-6:											#dedfe1;
+$clr-7:											#bfc0c1;
+$clr-8:											#646a7c;
+$clr-9:											#d7d7d7;
+$clr-10:										#232530;
+$clr-11:										#f0f2f3;
+$clr-12:										#111111;
+$clr-13:										#acacac;
+$clr-14:										#e7e7e7;
+$clr-15:										#373f4f;
+$clr-16:										#3b4557;
+$clr-17:										#1c273c;
+
+
+//== Scaffolding
+$text-color:									$clr-1;
+$link-color:									$black;
+
+//== Typography
+$font-family-sans-serif:						'Roboto', "Helvetica Neue", Helvetica, Arial, sans-serif;
+$heading-font-family-sans:						'Arizonia', cursive;
+$font-size-base:								14px;
+$line-height-base:								1.714;
+$headings-font-family:							$font-family-sans-serif;
+$headings-font-weight:							700;
+$headings-color:								$black;
+
+
+
+//== Container sizes
+$container-lg:									1200px;
+
+//== Forms
+$input-bg:										$black;
+$input-color:									$black;
+//$input-border:								$clr11;
+$input-border-radius:							0;
+//$input-border-focus:							$clr3;
+$input-color-placeholder:						$black;
+$form-group-margin-bottom:						16px;
