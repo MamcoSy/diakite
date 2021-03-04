@@ -1,16 +1,22 @@
 {
-    "name": "mamadoualysy/diakite",
-    "description": "Simple logistics presentation website",
-    "type": "project",
-    "authors": [
-        {
-            "name": "Mamadou Aly Sy",
-            "email": "mamco.aly.sy@gmail.com"
-        }
-    ],
-    "minimum-stability": "stable",
-    "require": {
-        "symfony/http-foundation": "^5.2",
-        "symfony/routing": "^5.2"
+  "name": "mamadoualysy/diakite",
+  "description": "Simple logistics presentation website",
+  "type": "project",
+  "authors": [
+    {
+      "name": "Mamadou Aly Sy",
+      "email": "mamco.aly.sy@gmail.com"
     }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "symfony/http-foundation": "^5.2",
+    "symfony/routing": "^5.2",
+    "symfony/http-kernel": "^5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "./src/"
+    }
+  }
 }
